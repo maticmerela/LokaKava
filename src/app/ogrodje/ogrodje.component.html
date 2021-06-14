@@ -1,0 +1,73 @@
+
+
+<!------------ side navbar ----------------->
+<mat-drawer-container class="example-container" autosize>
+
+<!------------ vsebina side bara ------------->
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <p>
+            <a  (click)="drawer.toggle()" routerLink="">
+                Domov
+            </a>
+
+        </p>
+        <p>
+            <a  (click)="drawer.toggle()" routerLink="/kave">
+                Domače kave
+            </a>
+
+        </p>
+        <p>
+            <a  (click)="drawer.toggle()" routerLink="/aromatizirane">
+                Aromatizirane kave
+            </a>
+
+        </p>
+        <p>
+            <a  (click)="drawer.toggle()" routerLink="/skodelice">
+                Skodelice
+            </a>
+
+        </p>
+        <p>
+            <a  (click)="drawer.toggle()" routerLink="/ivana">
+                O umetnosti
+            </a>
+
+        </p>
+    </mat-drawer>
+ <!------------ /vsebina side bara ------------->
+
+ 
+    <div class="example-sidenav-content">
+
+<!------------ zgornji nav bar ------------->
+    <header class="header sticky-top">
+        <nav class="navbar prozorniNav navbar-expand-lg">
+            <div class="container">
+                <a routerLink="" class="navbar-brand text-uppercase font-weight-bold">LOKA KAVA</a>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler navbar-toggler-right"><i class="fab fa-"></i></button>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                           
+                            <button (click)="drawer.toggle()">
+                                <mat-icon>menu</mat-icon>
+                            </button>
+                            <span class="sr-only">(current)</span>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!------------ /zgornji nav bar -------------->
+        <router-outlet></router-outlet>
+    </div>
+<!------------ /vsebina side bara ------------->
+
+</mat-drawer-container>
+<!------------ /side navbar ------------------->

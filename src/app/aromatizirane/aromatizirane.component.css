@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.ostalo{
+    background-color:rgba(31,38,40,255);
+    position:relative;
+    display: block;
+    padding: 5px;
+}
+
+.carousel{
+    position: absolute;
+    width:80%;
+    left:10%;
+    padding-top: 5%;
+}
+
+.arrow{
+    width: 100%;
+    top: auto;
+    left: auto;
+}
+
+p {
+    text-align: left;
+    font-family: stix-two-math, serif;
+}
+
+h3 {
+    text-align: left;
+    font-family: Larken\ Bold;
+}
+

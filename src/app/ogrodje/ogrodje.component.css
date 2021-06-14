@@ -1,0 +1,109 @@
+.navbar {
+    transition: all 0.4s;
+}
+.prozorniNav{
+    background-color:#ffffffc2 !important
+}  
+
+.navbar .nav-link {
+    color: #0E3C47;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #155869;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #0E3C47;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #155869;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand:hover {
+    color: #155869;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link  {
+        color: #0E3C47;
+    }
+}
+.menuIkona{
+    color: black;
+}
+.navbar-toggler {
+    color: black;
+}
+
+/* css za sidenav */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+mat-drawer {
+    width: 33vw;
+    padding: 4vw
+}
+
+.mat-drawer-inner-container {
+    padding: 4vh 5vw;
+}
+
+.example-container {
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  button {
+      border: none;
+      background-color: transparent;
+      vertical-align: middle;
+      padding: auto;
+      display: contents;
+  }
+.example-container {
+    /* color: transparent; */
+}
+
+.mat-icon {
+    margin-right: 2vw;
+}

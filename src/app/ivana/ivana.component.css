@@ -1,0 +1,39 @@
+.container {
+   padding-left: 4vw;
+   padding-right: 4vw;
+}
+
+.row {
+    margin-bottom: 8vh;
+    text-align: left;
+}
+
+.img-fluid {
+    max-width: 57%;
+}
+
+.imgDeklica {
+    max-width: 40%;
+}
+
+.goska {
+    max-width: 50%;
+}
+
+.mornar {
+    max-width: 60%;
+}
+
+.holandka {
+    max-width: 50%;
+}
+
+p {
+    text-align: left;
+    font-family: stix-two-math, serif;
+}
+
+h3 {
+    text-align: left;
+    font-family: Larken\ Bold;
+}

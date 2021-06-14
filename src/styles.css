@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: 'Larken\ Bold';
+    src: URL('assets/Larken\ Bold.ttf');
+  }
+
+.svgCrta {
+    height: 100%;
+    background-image: url(assets/crta.svg);
+    position: absolute;
+    width: 100vw;
+    margin: 0 10%;
+} 
+
+p {
+    font-family: stix-two-math, serif;
+}
+
+.mat-tab-label {
+    height: 6vh !important;
+    min-width: 7vw !important;
+    padding-top: 6vh;
+    font-family: stix-two-math, serif;
+}
+
+.mat-drawer-inner-container {
+    padding-top: 20vh;
+}
+
+.jebanBorder .mat-tab-header{
+    border-bottom: none;
+}
+
+
+.mat-tab-body-wrapper {
+    padding-top: 8vh;
+    background-image: url(/src/assets/slika1.png) !important;
+}
+
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color: #E09F30 !important;
+}
